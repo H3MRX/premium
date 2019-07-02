@@ -143,7 +143,6 @@ def menu():
         print '\x1b[1;91m[!] Token not found'
         os.system('rm -rf login.txt')
         time.sleep(1)
-        login()
     else:
         try:
             otw = requests.get('https://graph.facebook.com/me?access_token=' + toket)
