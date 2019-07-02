@@ -82,7 +82,6 @@ def login():
     os.system('clear')
     try:
         toket = open('login.txt', 'r')
-        menu()
     except (KeyError, IOError):
         os.system('clear')
         print logo
