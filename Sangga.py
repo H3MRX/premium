@@ -1,4 +1,5 @@
-# Python code obfuscated by www.development-tools.net 
+# Python code obfuscated by SANGGA GANS
+ 
  
 
 import base64, codecs
